@@ -57,7 +57,7 @@ function postData() {
 	var stock = document.getElementById("stock").value;
 	var price = document.getElementById("price").value;
 	
-    data = {_id: id, title: title, brand: brand, expDate: expDate, mfdDate:mfdDate,stock:stock, price:price };
+    data = { title: title, brand: brand, expDate: expDate, mfdDate:mfdDate,stock:stock, price:price };
 	
 	fetch(api_url, {
 		method: "POST",
